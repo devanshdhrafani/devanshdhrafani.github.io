@@ -41,7 +41,10 @@
 				<!-- Banner -->
 					<section id="banner">
 						<div class="inner">
-							<div class="logo"><span class="fas fa-user-astronaut"></span></div>
+							<div class="logo">
+                                <a href="https://www.linkedin.com/in/aditya-vaishampayan" class="icon brands fa-linkedin"></a>
+                                <a href="https://github.com/adityavaishampayan" class="icon brands fa-github"></a>
+                            </div>
 							<h2>Hi, my name is Aditya Vaishampayan</h2>
 							<p>I am a computer vision and deep learning enthusiast</a></p>
 						</div>
@@ -53,7 +56,7 @@
 						<!-- One -->
 							<section id="one" class="wrapper spotlight style1">
 								<div class="inner">
-									<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
+									<a href="#" class="image"><img src="images/aditya.jpg" alt="" /></a>
 									<div class="content">
 										<h2 class="major">Welcome to my portfolio</h2>
 										<p>Here i have show cased my various projects in computer vision as well as
@@ -61,7 +64,8 @@
 									 <div class="columns download">
 											  <p>
 												 <a href="CV/Aditya_Vaishampayan_Resume.pdf" class="button"
-													download><i class="fa fa-download"></i>Download CV</a>
+													download><i class="fa fa-download"></i> Download Computer Vision
+                                                     resume</a>
 											  </p>
 										   </div>
 
@@ -73,13 +77,18 @@
 						<!-- Two -->
 							<section id="two" class="wrapper alt spotlight style2">
 								<div class="inner">
-									<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
+									<a href="#" class="image"><img src="images/tesla.jpg" alt="" /></a>
 									<div class="content">
-										<h2 class="major">Tempus adipiscing</h2>
-										<p>Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus.</p>
-										<a href="#" class="special">Learn more</a>
-										<a href="#" class="button icon solid fa-download">Download Resume</a>
-
+										<h2 class="major">Summer Internship 2019</h2>
+										<p>I was a Robotics and Controls engineering intern at the Tesla factory
+											in Fremont, CA from Jun 2019 to August 2019.</p>
+											<div class="columns download">
+											  <p>
+												 <a href="CV/Aditya_Vaishampayan_Resume_Automation.pdf" class="button"
+													download><i class="fa fa-download"></i> Download Controls
+													 & Automation resume</a>
+											  </p>
+										   </div>
 									</div>
 								</div>
 							</section>
@@ -87,10 +96,11 @@
 						<!-- Three -->
 							<section id="three" class="wrapper spotlight style3">
 								<div class="inner">
-									<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+									<a href="#" class="image"><img src="images/umd_png.png" alt="" /></a>
 									<div class="content">
-										<h2 class="major">Nullam dignissim</h2>
-										<p>Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus.</p>
+										<h2 class="major">Meng. Robotics 2018 - 2020 </h2>
+										<p> I am currently pursuing my masters in Robotics from University of
+                                            Maryland College Park with a focus on Computer Vision and Deep Learning</p>
 										<a href="#" class="special">Learn more</a>
 									</div>
 								</div>
@@ -103,27 +113,34 @@
 									<section class="features">
 										<article>
 											<a href="#" class="image"><img src="images/ObstacleDetectionFPS.gif" alt="" /></a>
-											<h3 class="major">3D point cloud segmentation</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
+											<h3 class="major">Lidar Obstacle Detection</h3>
+											<p>Implemented an obstacle detection pipeline using 3D lidar point cloud
+                                            data by using RANSAC based plane segmentation, KD-Tree and Eucledian
+                                                Clustering Algorithms.</p>
 											<a href="#" class="special">Learn more</a>
 										</article>
 										<article>
 											<a href="#" class="image"><img src="images/3D_object_tracking.gif" alt="" /></a>
 											<h3 class="major">Tracking an Object in 3D Space</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
+											<p>Developed a pipeline to match 3D objects over time by using key point
+                                                correspondences and also computed time to collision based on Lidar
+                                                measurements. Projected lidar points backward onto a camera image in
+                                                order to fuse sensor modalities. Used YOLO framework on the fused data
+                                                for detecting and classifying objects and track vehicles.</p>
 											<a href="#" class="special">Learn more</a>
 										</article>
 										<article>
 											<a href="https://adityavaishampayan.github.io/Traffic_Sign_Classification/" class="image"><img src="images/Traffic_Sign_Detection.gif" alt="" /></a>
 											<h3 class="major">Traffic Sign Classification</h3>
-											<p>Detection and classification of traffic signs using MSER, HOG and SVM
-												.</p>
+											<p>Detected traffic signs from a video using MSER, Histogram of Gradients (HOG) features and trained a linear-Support Vector Machine (SVM) for classification purposes. Created bounding boxes around the detected sign and pasted the appropriate sign next to it for verification.
+</p>
 											<a href="https://adityavaishampayan.github.io/Traffic_Sign_Classification/" class="special">Learn more</a>
 										</article>
 										<article>
 											<a href="#" class="image"><img src="images/lanedetection.gif" alt="" /></a>
 											<h3 class="major">Lane line detection</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
+											<p>Created a traffic lane segmentation pipeline using HSL & LAB color spaces by identifying peak histograms. Used sliding window poly-fitting to determine radius of curvature of the road and distance between center of image and lane to calculate vehicle offset.
+</p>
 											<a href="#" class="special">Learn more</a>
 										</article>
 									</section>
