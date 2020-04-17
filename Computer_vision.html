@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Aditya Vaishampayan - Robotics</title>
+		<title>Aditya Vaishampayan - CV</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -28,12 +28,12 @@
 				<!-- Menu -->
 					<nav id="menu">
 						<div class="inner">
-							<h2>Menu</h2>
+							<h2>Menu</+/h2>
 							<ul class="links">
 								<li><a href="index.html">Home</a></li>
-								<li><a href="deep_learning.html">Deep Learning Projects</a></li>
-								<li><a href="Computer_vision.html">Computer Vision Projects</a></li>
-								<li><a href="path_planning.html">Path Planning Projects</a></li>
+								<li><a href="deep_learning.html">Deep Learning</a></li>
+								<li><a href="Computer_vision.html">Computer Vision</a></li>
+								<li><a href="path_planning.html">Path Planning</a></li>
 							</ul>
 							<a href="#" class="close">Close</a>
 						</div>
@@ -46,171 +46,110 @@
                                 <a href="https://www.linkedin.com/in/aditya-vaishampayan" class="icon brands fa-linkedin"></a>
                                 <a href="https://github.com/adityavaishampayan" class="icon brands fa-github"></a>
                             </div>
-							<h2>Hi, my name is Aditya Vaishampayan</h2>
-							<p>I am a computer vision and deep learning enthusiast</a></p>
+							<h2>A summary of my perception projects</h2>
 						</div>
 					</section>
 
 				<!-- Wrapper -->
 					<section id="wrapper">
 
-						<!-- One -->
-							<section id="one" class="wrapper spotlight style1">
-								<div class="inner">
-									<a href="#" class="image"><img src="images/aditya.jpg" alt="" /></a>
-									<div class="content">
-										<h2 class="major">Welcome to my portfolio</h2>
-										<p>Here i have show cased my various projects in computer vision as well as
-											robotics</p>
-									 <div class="columns download">
-											  <p>
-												 <a href="CV/Aditya_Vaishampayan_Resume.pdf" class="button"
-													download><i class="fa fa-download"></i> Computer Vision resume</a>
-											  </p>
-										   </div>
-
-
-									</div>
-								</div>
-							</section>
-
-						<!-- Two -->
-							<section id="two" class="wrapper alt spotlight style2">
-								<div class="inner">
-									<a href="#" class="image"><img src="images/tesla.jpg" alt="" /></a>
-									<div class="content">
-										<h2 class="major">Summer Internship 2019</h2>
-										<p>I was a Robotics and Controls engineering intern at the Tesla factory
-											in Fremont, CA from Jun 2019 to August 2019.</p>
-											<div class="columns download">
-											  <p>
-												 <a href="CV/Aditya_Vaishampayan_Resume_Automation.pdf" class="button"
-													download><i class="fa fa-download"></i> Automation and Controls resume</a>
-											  </p>
-										   </div>
-									</div>
-								</div>
-							</section>
-
-						<!-- Three -->
-							<section id="three" class="wrapper spotlight style3">
-								<div class="inner">
-									<a href="#" class="image"><img src="images/umd_png.png" alt="" /></a>
-									<div class="content">
-										<h2 class="major">Meng. Robotics 2018 - 2020 </h2>
-										<p> I am currently pursuing my masters in Robotics from University of
-                                            Maryland College Park with a focus on Computer Vision and Deep Learning</p>
-									</div>
-								</div>
-							</section>
-
 						<!-- Four -->
 							<section id="four" class="wrapper alt style1">
 								<div class="inner">
-									<h2 class="major">Self Driving car projects</h2>
 									<section class="features">
+
 										<article>
-											<a href="#" class="image"><img src="images/ObstacleDetectionFPS.gif" alt="" /></a>
-											<h3 class="major">Lidar Obstacle Detection</h3>
-											<p>Implemented an obstacle detection pipeline using 3D lidar point cloud
-                                            data by using RANSAC based plane segmentation, KD-Tree and Eucledian
-                                                Clustering Algorithms.</p>
+											<a href="#" class="image"><img src="images/SFM.png" alt="" /></a>
+											<h3 class="major">Structure from Motion (SFM, 3D reconstruction) </h3>
+											<p>This project focuses on estimating a three dimensional structure from two-dimensional image sequences which are related to each other by change in camera motion (Orientation and translation). This problem is usually referred to as Structure from motion. There are several algorithms which achieve this.
+												In this project, we aim to learn how to recreate 3D structures from a given dataset of 2D images using traditional approaches to Sfm.
+											</p>
 											<a href="#" class="special">Learn more</a>
 										</article>
+
 										<article>
-											<a href="#" class="image"><img src="images/3D_object_tracking.gif" alt="" /></a>
-											<h3 class="major">Tracking an Object in 3D Space</h3>
-											<p>Developed a pipeline to match 3D objects over time by using key point
-                                                correspondences and also computed time to collision based on Lidar
-                                                measurements. Projected lidar points backward onto a camera image in
-                                                order to fuse sensor modalities. Used YOLO framework on the fused data
-                                                for detecting and classifying objects and track vehicles.</p>
+											<a href="https://github.com/adityavaishampayan/Traffic_Sign_Classification" class="image"><img src="images/Traffic_sign_detection.gif" alt="" /></a>
+											<h3 class="major">Traffic Sign Detection and Classification </h3>
+											<p> Detected traffic signs from a video using MSER, Histogram of
+												Gradients (HOG) features and trained a Support Vector Machine (SVM) for classification purposes using Scikit-learn.
+												Created bounding boxes around the detected sign and pasted the
+												appropriate sign next to it for verification.
+
+											</p>
+											<a href="https://github.com/adityavaishampayan/Traffic_Sign_Classification" class="special">Learn more</a>
+										</article>
+
+										<article>
+											<a href="#"
+											   class="image"><img src="images/lanedetection.gif" alt="" /></a>
+											<h3 class="major">Advance Lane Line Detection </h3>
+											<p> Created a traffic lane segmentation pipeline using HSL & LAB color
+												spaces by identifying peak histograms.
+												Used sliding window poly-fitting to determine radius of curvature of the road and distance between center of image and lane to calculate vehicle offset.
+                                            </p>
 											<a href="#" class="special">Learn more</a>
 										</article>
+
 										<article>
-											<a href="https://adityavaishampayan.github.io/Traffic_Sign_Classification/" class="image"><img src="images/Traffic_Sign_Detection.gif" alt="" /></a>
-											<h3 class="major">Traffic Sign Classification</h3>
-											<p>Detected traffic signs from a video using MSER, Histogram of Gradients (HOG) features and trained a linear-Support Vector Machine (SVM) for classification purposes. Created bounding boxes around the detected sign and pasted the appropriate sign next to it for verification.
-</p>
-											<a href="https://adityavaishampayan.github.io/Traffic_Sign_Classification/" class="special">Learn more</a>
+											<a href="https://github.com/adityavaishampayan/Lucas_Kanade_Template_Tracker" class="image"><img src="images/LK.gif" alt="" /></a>
+											<h3 class="major">Lucas Kanade Tracker</h3>
+											<p> Implemented an affineLKTracker to computer affine transformations from
+												the template to every frame in the sequence and draw the bounding boxes of the rectangles warped from the first frame.
+												Also made the tracker robust to illumination changes.
+											</p>
+											<a href="https://github.com/adityavaishampayan/Lucas_Kanade_Template_Tracker" class="special">Learn more</a>
 										</article>
+
 										<article>
-											<a href="#" class="image"><img src="images/lanedetection.gif" alt="" /></a>
-											<h3 class="major">Lane line detection</h3>
-											<p>Created a traffic lane segmentation pipeline using HSL & LAB color spaces by identifying peak histograms. Used sliding window poly-fitting to determine radius of curvature of the road and distance between center of image and lane to calculate vehicle offset.
-</p>
+											<a href="#"
+											   class="image"><img src="images/VO.gif" alt="" /></a>
+											<h3 class="major">Visual Odometry  </h3>
+											<p>Built an image processing pipeline to plot the route of a car taken from a dash-cam monocular camera.
+												Calculated fundamental and essential matrices using RANSAC based 8-point algorithm and Zhang’s estimation
+                                            </p>
 											<a href="#" class="special">Learn more</a>
 										</article>
+
+										<article>
+											<a href="#" class="image"><img src="images/AR.gif" alt="" /></a>
+											<h3 class="major">AR Homography </h3>
+											<p>Developed an image processing pipeline to identify AR tags from a video through contour detection.
+												Calculated homography and projection matrices to replace the detected AR tag with any given image or a virtual cube
+											</p>
+											<a href="#" class="special">Learn more</a>
+										</article>
+
+										<article>
+											<a href="https://github.com/adityavaishampayan/Expectation_Maximisation"
+											   class="image"><img src="images/EM.gif" alt="" /></a>
+											<h3 class="major">Buoy Detection and Color Segmentation   </h3>
+											<p> Implemented an underwater buoy detection pipeline that generates a color-segmented binary image,
+												given the computed model parameters and also draws tight bounding contours around the buoy.
+												Used Gaussian Mixture Models and Expectation Maximization techniques for color segmentation.
+                                            </p>
+											<a href="https://github.com/adityavaishampayan/Expectation_Maximisation" class="special">Learn more</a>
+										</article>
+
+										<article>
+											<a href="#" class="image"><img src="images/SLAM.png" alt="" /></a>
+											<h3 class="major">SLAM </h3>
+											<p>In this project, the task is to implement a Graph SLAM based approach to create a 2D occupancy grid and 3D octomap of a
+												given kitchen and dining environment and also a custom gazebo environment. The task is accomplished by a two-wheeled robot with an RGB-D camera and hokuyo LIDAR sensor.
+												Real-Time Appearance-based mapping approach is implemented using rtab\_ros package. The final 3D octomaps for both the environments are generated by
+												performing teleoperation via keyboard and real-time applications of such maps are discussed. A custom ROS package is written to complete the above-defined task.
+											</p>
+											<a href="#" class="special">Learn more</a>
+										</article>
+
+
+
 									</section>
-									<ul class="actions">
-										<li><a href="#" class="button">Browse All</a></li>
-									</ul>
+
 								</div>
 							</section>
 
 					</section>
 				<section>
-                <section id="timeline">
-                  <h2 class="major">My journey so far</h2>
-                  <article>
-                    <div class="inner">
-                      <span class="date">
-                        <span class="day">3<sup>rd</sup></span>
-                        <span class="month">June</span>
-                        <span class="year">2019</span>
-                      </span>
-                      <h2>Tesla Inc. Fremont, CA </h2>
-                      <p>Started Interning at Tesla as a Robotics Control Engineering Intern</p>
-                    </div>
-                  </article>
-                  <article>
-                    <div class="inner">
-                      <span class="date">
-                        <span class="day">27<sup>th</sup></span>
-                        <span class="month">Aug</span>
-                        <span class="year">2018</span>
-                      </span>
-                      <h2>University of Maryland, College Park</h2>
-                      <p>Started graduate school at University of Maryland, College Park with a masters degree in
-                          Robotics.
-                    </div>
-                  </article>
-                <article>
-                <div class="inner">
-                  <span class="date">
-                    <span class="day">2<sup>nd</sup></span>
-                    <span class="month">Apr</span>
-                    <span class="year">2018</span>
-                  </span>
-                  <h2>Keepsake Automation LLP.</h2>
-                  <p>Started as a robotics engineering intern. Worked on KUKA robots for MIG, TIG welding.</p>
-                </div>
-              </article>
-                  <article>
-                    <div class="inner">
-                      <span class="date">
-                        <span class="day">29<sup>th</sup></span>
-                        <span class="month">May</span>
-                        <span class="year">2017</span>
-                      </span>
-                      <h2>Siemens, Vadodara Ltd.</h2>
-                      <p>Joined as a controls engineering intern at Siemens Ltd.</p>
-                    </div>
-                  </article>
-
-                    <article>
-                    <div class="inner">
-                      <span class="date">
-                        <span class="day">5<sup>th</sup></span>
-                        <span class="month">Aug</span>
-                        <span class="year">2015</span>
-                      </span>
-                      <h2>L.D. College of Engineering, Ahmedabad, India</h2>
-                      <p>Started schooling at L.D. College of Engineering pursuing bachelors in Instrumentation and
-                          Control.</p>
-                    </div>
-                  </article>
-                </section>
 
 				<!-- Footer -->
 					<section id="footer">
