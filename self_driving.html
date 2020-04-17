@@ -47,7 +47,7 @@
                                 <a href="https://www.linkedin.com/in/aditya-vaishampayan" class="icon brands fa-linkedin"></a>
                                 <a href="https://github.com/adityavaishampayan" class="icon brands fa-github"></a>
                             </div>
-							<h2>A summary of my path planning projects</h2>
+							<h2>A summary of my projects on self driving cars</h2>
 						</div>
 					</section>
 
@@ -60,72 +60,70 @@
 									<section class="features">
 
 										<article>
-											<a href="#" class="image"><img src="images/8_puzzle.gif" alt="" /></a>
-											<h3 class="major">8 puzzle</h3>
-											<p>A simplistic solution to the 8 puzzle game using Brute Force Algorithm is developed.
-												Its time-complexity is high due to the fact that there is no cost function but this makes it easy to lay foundations to graph theory.
-												Manhattan distance as a cost function is aimed to be applied to make it time efficient.	</p>
+											<a href="#" class="image"><img src="images/ObstacleDetectionFPS.gif" alt="" /></a>
+											<h3 class="major"> Tracking an Object in 3D Space </h3>
+											<p>Implemented an obstacle detection pipeline using 3D lidar point cloud
+                                            data by using RANSAC based plane segmentation, KD-Tree and Eucledian
+                                                Clustering Algorithms.</p>
 											<a href="#" class="special">Learn more</a>
 										</article>
 
 										<article>
-											<a href="#" class="image"><img src="images/swarmathon.gif" alt="" /></a>
-											<h3 class="major">NASA Swarmathon</h3>
-											<p> Utilized a swarm of 6 rovers to explore a bounded region and collect
-												maximum arbitrary placed targets.Experimented with multiple space
-												exploration strategies such as spiral, lawnmower motions, Hilbert curves etc.
-												Designed and generated a custom map object that populates incrementally with rover movement.
-												Also, implemented an optimized collision avoidance algorithm for rovers using ROS, C++ and Gazebo.
+											<a href="#" class="image"><img src="images/3D_object_tracking.gif" alt="" /></a>
+											<h3 class="major">Lidar Obstacle
+                                                Detection</h3>
+											<p>Developed a pipeline to match 3D objects over time by using key point
+                                                correspondences and also computed time to collision based on Lidar
+                                                measurements. Projected lidar points backward onto a camera image in
+                                                order to fuse sensor modalities. Used YOLO framework on the fused data
+                                                for detecting and classifying objects and track vehicles.</p>
+											<a href="#" class="special">Learn more</a>
+										</article>
+
+										<article>
+											<a href="#" class="image"><img src="images/sfmlearner.gif" alt="" /></a>
+											<h3 class="major">SFM Learner </h3>
+											<p> Currently estimating depth and pose (or ego-motion) from a sequence
+												of images using unsupervised learning.
+												Using multiple image sequences from KITTI dataset and learning rotation and translation from the sequence.
 											</p>
 											<a href="#" class="special">Learn more</a>
 										</article>
 
 										<article>
-											<a href="#" class="image"><img src="images/turtlebot.gif" alt="" /></a>
-											<h3 class="major">Path Planning for Autonomous Robots </h3>
-											<p>
-												Dijkstra and A* algorithms were implemented on a point and a rigid
-												robot on a given map to find the optimal path. Simulated on TurtleBot2 with non-holonomic constraints.
-												The simulation is then performed on the map of the Robot Realization Lab of University of Maryland.
+											<a href="https://github.com/adityavaishampayan/828I_monodepth" class="image"><img src="images/depthsegnet.gif" alt="" /></a>
+											<h3 class="major">DepthSegNet - Monocular Depth estimation and Semantic Segmentation </h3>
+											<p>This project addresses the two most important task in computer vision of
+												depth estimation and semantic segmentation. We have considered the
+												idea of integrating both the task together in the same framework as they may benefit each other in improving the accuracy.
 											</p>
+											<a href="https://github.com/adityavaishampayan/828I_monodepth" class="special">Learn more</a>
+										</article>
+
+										<article>
+											<a href="https://adityavaishampayan.github.io/Traffic_Sign_Classification/" class="image"><img src="images/Traffic_Sign_Detection.gif" alt="" /></a>
+											<h3 class="major">Traffic Sign Classification</h3>
+											<p>Detected traffic signs from a video using MSER, Histogram of Gradients (HOG) features and trained a linear-Support Vector Machine (SVM) for classification purposes. Created bounding boxes around the detected sign and pasted the appropriate sign next to it for verification.
+</p>
+											<a href="https://adityavaishampayan.github.io/Traffic_Sign_Classification/" class="special">Learn more</a>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/lanedetection.gif" alt="" /></a>
+											<h3 class="major">Lane line detection</h3>
+											<p>Created a traffic lane segmentation pipeline using HSL & LAB color spaces by identifying peak histograms. Used sliding window poly-fitting to determine radius of curvature of the road and distance between center of image and lane to calculate vehicle offset.
+</p>
 											<a href="#" class="special">Learn more</a>
 										</article>
 
 										<article>
-											<a href="#" class="image"><img src="images/baxter.gif"
-																		   alt="" /></a>
-											<h3 class="major">Implementation of Motion Planning on Baxter  </h3>
-											<p> Inverse kinematics was calculated for Baxter Robot for pick and place application along with obstacle avoidance. The simulation was carried out in the V-Rep. </p>
-										</article>
-
-										<article>
-											<a href="#" class="image"><img src="images/A_star.gif"
-																		   alt="" /></a>
-											<h3 class="major">A* Algorithm </h3>
-											<p> Implemented A* and Weighted A* algorithms</p>
+											<a href="#"
+											   class="image"><img src="images/VO.gif" alt="" /></a>
+											<h3 class="major">Visual Odometry  </h3>
+											<p>Built an image processing pipeline to plot the route of a car taken from a dash-cam monocular camera.
+												Calculated fundamental and essential matrices using RANSAC based 8-point algorithm and Zhang’s estimation
+                                            </p>
 											<a href="#" class="special">Learn more</a>
 										</article>
-
-										<article>
-											<a href="#" class="image"><img src="images/Dijkstra.gif"
-																		   alt="" /></a>
-											<h3 class="major">Dijkstra Algorithm </h3>
-											<p> Implemented Dijkstra algorithm</p>
-											<a href="#" class="special">Learn more</a>
-										</article>
-
-										<article>
-											<a href="#" class="image"><img src="images/BFS.gif"
-																		   alt="" /></a>
-											<h3 class="major">Breadth First Search (BFS) Algorithm </h3>
-											<p> Implemented BFS algorithm</p>
-											<a href="#" class="special">Learn more</a>
-										</article>
-
-
-
-
-
 
 
 
