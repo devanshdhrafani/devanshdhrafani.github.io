@@ -8,6 +8,19 @@ layout: default
     <p class="post-description">{{ page.description }}</p>
   </header>
 
+  <p style='text-align: right;'>
+    {% if page.projectlink %}
+      <a href="{{ page.projectlink }}">Link to project <i class="fab fa-github" aria-hidden="true"></i></a>
+  
+     <!--  {% if page.sourcelink %}
+        and <a href="{{ page.sourcelink }}">source</a>
+      {% endif %} -->
+  
+    {% elsif page.sourcelink %}
+      <a href="{{ page.sourcelink }}">Source code</a>
+    {% endif %}
+  </p>
+
   <article>
     {{ content }}
   </article>
