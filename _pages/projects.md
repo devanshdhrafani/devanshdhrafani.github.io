@@ -33,17 +33,9 @@ nav: true
 	</li>	
 	<br/>
   <br/>
-  <li>
-		<a href="{{ site.baseurl }}/projects/3_project/" style="text-decoration:none;">
-		<img src="../assets/img/hive-1.jpg" alt="HIVE" style="float:left;width:100px;height:60px;border-color: white" border="8">
-			<p>
-				<b>
-				HIVE: An effort to make multi robot system showcasing Swarm Intelligence.
-				</b>
-			</p>
-		</a>
-	</li>
 </ul>
+
+-- Other projects to be updated soon --
 	
 <!--div class="projects grid">
 
