@@ -2,13 +2,28 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: 
+description: Here are some of the projects that I completed during my undergrad.
 nav: true
 ---
 
 ### Robotics Projects
 
-<ul class="posts">
+* **Dextroid-The Humanoid :** A low cost 8 DOF Bipedal Humanoid. ([link]({{ site.baseurl }}/projects/dextroid/))
+* **ALFA :** An open-source floor assistant mobile robot developed at APTRI Labs, Ahmedabad. ([link]({{ site.baseurl }}/projects/alfa/))
+* **diff_drive_bot :** ROS Package for implementing **slam_gmapping** and **ROS Navigation Stack** on a custom 2 wheeled Differential Drive Robot. ([code](https://github.com/devanshdhrafani/diff_drive_bot){:target="\_blank"})
+* **mobile-robot-controller :** ROS Package for controlling mobile robots. Implements **HybridAutomata** with Go to Goal, Obstacle Avoidance, and Follow Wall behaviours governed by **Sliding Mode Switch**. ([code](https://github.com/devanshdhrafani/mobile-robot-controller){:target="\_blank"})
+* **Quadrotor :** Successfully assembled, tuned and tested a quadrotor with KK2 1.5 flight controller.
+* **Heatbuzzer :** Built a temperature monitoring device using DS18B20 Temperature sensor, Arduino Nano and 16x2 LCD screen. 
+* **Obstacle Avoiding Bot :** Built an obstacle avoiding mobile robot using Ultrasound Sensor, Servo, and Arduino UNO.  
+
+### Other Projects
+
+* **EXPEVER :** Expert EV/HEV Prime-mover Selection System (EXPEVER) is an intelligent selection system for EV/HEV prime-mover parts. ([report]({{ site.baseurl }}/projects/expever/))
+* **Solar Electricity Generation forecasting :** Implementing Machine Learning models for Solar Electricity Generation forecasting problems with weather parameters as inputs. ([report]({{ site.baseurl }}/projects/solar/))
+* **Coefficient of Drag using Accelerometer Drop Test :** Researched on a drop-test method for finding Coefficient of Drag for a model airplane. ([link]({{ site.baseurl }}/projects/drag/))
+* **Fabrication of Microfluidic Electrochemical Sensors :** Developed a novel method for fabrication of PoC Electrochemical Sensors at MEMS Lab, BITS Hyderabad. ([report]({{ site.baseurl }}/projects/mems/))
+
+<!--ul class="posts">
 	<li>
 		<a href="{{ site.baseurl }}/projects/dextroid/" style="text-decoration:none;">
 		<img src="../assets/img/dextroid2.png" alt="Dextroid -The Humanoid" style="float:left;width:120px;height:80px;border-color: white">
@@ -33,9 +48,7 @@ nav: true
 	</li>	
 	<br/>
   <br/>
-</ul>
-
--- Other projects to be updated soon --
+</ul-->
 	
 <!--div class="projects grid">
 
