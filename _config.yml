@@ -79,6 +79,11 @@ collections:
       layout: post
     output: true
     permalink: /news/:path/
+  blog_posts:
+    defaults:
+      layout: post
+    output: true
+    permalink: /blog_posts/:path/
   projects:
     output: true
     permalink: /projects/:path/
