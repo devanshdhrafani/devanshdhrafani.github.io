@@ -14,7 +14,7 @@ Wing Sweep Angle and Coefficient of Drag are important parameters for any aircra
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="/assets/img/drag/connections.jpg" alt="" title="Connections"/>
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/drag/connection.jpg" alt="" title="Connections"/>
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="/assets/img/drag/front.jpeg" alt="" title="Model Airplane"/>
