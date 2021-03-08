@@ -22,8 +22,10 @@ TowerPro MG995 metal-gear servos were choosen to actuate the 8 Degrees of Freedo
 </div>
 
 
-### Electronics and Software
+### Electronics
 
 Arduino UNO was used as the microcontroller. The robot was powered by a lithium polymer battery (not attached). A DC-DC Buck Converter was used to step-down voltage for the servos/arduino.
 
--- video to be added --
+### Demo Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JOigEVpNYiw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

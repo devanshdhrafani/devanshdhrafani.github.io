@@ -65,4 +65,8 @@ The mounts were fixed to the base plates using screws.
     Left: Final Robot assembly. Right: Team photo with robot.
 </div>
 
+### Demo Video
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5VXF0VehuxQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Find the Code, CAD Files and other details on [GitHub](https://github.com/YugAjmera/ALFA).
+
