@@ -5,7 +5,7 @@
 
 // Dimensions
 
-$max-content-width: 1000px;
+$max-content-width: 1200px;
 
 // Colors
 $red-color:           #FF3636 !default;
@@ -29,6 +29,13 @@ $yellow-color:        #efcc00 !default;
 $grey-color:          #828282 !default;
 $grey-color-light:    lighten($grey-color, 40%);
 $grey-color-dark:     darken($grey-color, 25%);
+$grey-color-darker:     darken($grey-color, 30%);
+
+$dark-mode-black: #171717 !default;
+$dark-mode-grey: #444444 !default;
+$dark-mode-red: #DA0037 !default;
+$dark-mode-white: #EDEDED !default;
+
 
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
