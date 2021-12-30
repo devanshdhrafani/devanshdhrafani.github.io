@@ -5,6 +5,7 @@ description: An open-source internet controlled mobile robot.
 img: /assets/img/alfa3.jpg
 importance: 2
 projectlink: https://github.com/YugAjmera/ALFA
+category: robotics
 ---
 
 This was an internship project done at [Adani Power](https://www.adanipower.com/)'s training and research institute [APTRI](https://www.aptri.org/). ALFA is an open-source internet controlled mobile robot. We designed, fabricated and tested the prototype in 2 months of the summer internship.
