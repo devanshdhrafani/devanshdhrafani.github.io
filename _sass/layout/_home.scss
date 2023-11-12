@@ -1,0 +1,165 @@
+.root,
+.layout--home {
+  .row::after {
+      content: "";
+      clear: both;
+      display: table;
+  }
+
+  .col-12 {
+      width: 70%;
+      float: right;
+      padding-left: 3%;
+      font-size: medium;
+      padding-top: 1%;
+      h1 {
+        font-size: 2.0rem;
+      }
+  }
+  
+  .col-lg-4 {
+      width: 30%;
+      float: left;
+      padding-top: 5%;
+      line-height: 130%;
+      padding-right: 2%;
+  }
+
+  @media (min-width: 992px) {
+      .col-lg-4 {
+          width: 30%;
+      }
+  }
+
+  .card__image {
+    border-radius: 50%; /* Make it a circle */
+    border: 3px solid #fff; /* Add a white border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Apply a subtle shadow */
+  }
+
+  #profile h2 {
+      font-size: 24px; /* Adjust the font size */
+      text-align: center;
+  }
+
+  /* Style for the job title */
+  #profile h3 {
+      font-size: large; /* Adjust the font size */
+      color: #666; /* Adjust the text color */
+      text-align: center;
+  }
+
+  // style for company
+  #profile h4 {
+    font-size: large; /* Adjust the font size */
+    text-align: center;
+  }
+
+  .col-lg-8 {
+    font-size: medium;
+  }
+
+  .row-int-edu {
+      display: grid;
+      gap: 0px; /* Adjust the gap between project cards */  
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust the minimum width of the cards */
+      // grid-auto-rows: 500px;  
+  }
+
+  .col-md-7 {
+      grid-column: span 2;
+  }
+
+  .row-int-edu{
+    line-height: 135%;
+  }
+
+  .ul-interest{
+    padding-left: 10%;
+  }
+
+  @media (max-width: 992px) {
+      .col-md-5,
+      .col-md-7 {
+          flex: 0 0 100%;
+          float: none; /* Resetting float for mobile view */
+      }
+  }
+
+  #title-button {
+    display: flex;
+    align-items: center;
+  }
+
+  .news #title-button h2 {
+    flex: 0 0 12%;
+  }
+
+  .table {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .news table th {
+    font-size: small;
+  }
+
+  .news table td {
+    font-size: medium;
+    padding-left: 2%;
+  }
+
+  .projects #title-button h2 {
+    flex: 0 0 32%;
+  }
+
+  .projects-grid {
+    padding-top: 2%;
+    display: grid;
+    gap: 10px; /* Adjust the gap between project cards */  
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); /* Adjust the minimum width of the cards */
+    grid-auto-rows: 500px;  
+  }
+  
+  .project-card {
+    /* You can adjust the width to fit your design, considering the gap */
+    margin-bottom: 20px;
+    border: 1px solid #ddd; /* Add borders or styling as needed */
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .project-card a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .project-image {
+    height: 240px; /* Set the height for the project images */
+    overflow: hidden;
+  }
+  
+  .project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the designated space */
+  }
+  
+  .project-details {
+    padding: 15px;
+  }
+  
+  .project-details h3 {
+    margin-top: 0;
+    font-size: 1.2em;
+  }
+  
+  .project-details p {
+    margin-bottom: 0;
+    font-size: 0.9em;
+    color: #555;
+    font-weight: lighter;
+  }
+  
+
+}

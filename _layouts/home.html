@@ -1,0 +1,139 @@
+---
+layout: page
+title: Home
+show_title: false
+---
+
+<div class="row">
+  {%- assign _site_author = site.author -%}
+  {%- if _site_author.type == 'organization' -%}
+    {%- assign _site_author_itemtype = 'http://schema.org/Organization' -%}
+  {%- else -%}
+    {%- assign _site_author_itemtype = 'http://schema.org/Person' -%}
+  {%- endif -%}
+
+  <div class="col-12 col-lg-4">
+    <div id="profile">
+      <img class="card__image" src="/assets/images/profile_picture.jpg" alt="Avatar">
+      <div class="portrait-title">
+        <h2>Devansh Dhrafani</h2>
+        <h3>Graduate student</h3>
+        <h4>
+          <a href="https://www.ri.cmu.edu" target="_blank" rel="noopener">
+          <span>Robotics Institute, CMU</span>
+          </a>
+        </h4>
+        <div class="footer__author-links">
+          {%- include author-links.html author=_site_author -%}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-lg-8">
+    <h1>Biography</h1>
+    <p>Hi! I’m a Masters student at Carnegie Mellon University. I am fascinated by robots and 
+      hope to use them to make meaningful impact on people’s lives. I am actively looking for full-time opportunities 
+      starting May 2024.
+    </p>
+    <p>I have worked with robots that fly, walk, drive, crawl, administer drugs, and build 
+      houses to solve real world problems like combating wildfire, search and rescue, 
+      extraterrestrial exploration, battlefield trauma-care, housing crisis, and more! Check
+      out all my projects <a href="/projects">here</a>.
+      Currently I'm working with <a href="https://www.ri.cmu.edu/ri-faculty/sebastian-scherer/" 
+      target="_blank" rel="noopener">Prof Sebastian Scherer</a> at the 
+      <a href="https://theairlab.org"target="_blank" rel="noopener">AirLab</a> on Autonomous UAV
+      flight through dense visually degraded wildfires. In the past, I worked 
+      with <a href="http://www.cs.cmu.edu/~choset/" 
+      target="_blank" rel="noopener">Prof Howie Choset</a> on designing 
+      gaits for snake robots, including the NASA-JPL EELS robot and developing medical sensors 
+      to aid in Autonomous Robotic needle insertion.
+    </p>
+    <p>
+      I like to spend my free time reading SciFi and Fantasy, hiking, and playing 
+      video games. I’m always on the lookout for meaningful opportunities and collaborations. 
+      Do get in touch with me to discuss Robotics, hiking spots or your favorite SciFi novel!
+    </p>
+<div class="row-int-edu">
+  <div class="col-md-5">
+    <h3 class="interests-heading">Interests</h3>
+    <ul class="ul-interest">
+      <li>Motion Planning</li>
+      <li>Controls</li>
+      <li>Robot Autonomy</li>
+    </ul>
+  </div>
+  <div class="col-md-7">
+    <h3>Education</h3>
+    <ul class="ul-edu fa-ul">
+      <li>
+        <i class="fa-li fa fa-graduation-cap"></i>
+        <div class="description-edu">
+          <p>MSME in Robotics and Controls, 2024</p>
+          <p>Carnegie Mellon University</p>
+        </div>
+      </li>
+      <li>
+        <i class="fa-li fa fa-graduation-cap"></i>
+        <div class="description-edu">
+          <p>MSc Physics + BE Mechanical, 2022</p>
+          <!-- <p>BE Mechanical Enginnering, 2022</p> -->
+          <p>Birla Institute of Technology & Science (BITS), Pilani</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+  </div>
+</div>
+
+<!-- add some blank vertical space -->
+<!-- <div class="row">
+  <div class="col-12">
+    <br>
+  </div>
+</div> -->
+
+<div class="news">
+  <div id="title-button">
+    <h2>News</h2> <a class="button button--secondary button--pill button--sm" href="/news">Read all</a>
+  </div>
+  <div class="table-responsive">
+    <table class="table table-sm table-borderless">
+    {% assign news = site.news | reverse %}
+    {% for item in news limit: 3 %}
+      <tr>
+        <th scope="row">{{ item.date | date: "%b %Y" }}</th>
+        <td>
+          {% if item.inline %}
+            {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+          {% else %}
+            <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+          {% endif %}
+        </td>
+      </tr>
+    {% endfor %}
+    </table>
+  </div>
+</div>
+
+<div class="projects">
+  <div id="title-button">
+    <h2>Selected Projects</h2> <a class="button button--secondary button--pill button--sm" href="/projects">All Projects</a>
+  </div>
+  <div class="projects-grid">
+    {% assign selected_projects = site.projects | where: "select", true | reverse %}
+    {% for project in selected_projects %}
+      <div class="project-card">
+        <a href="{{ project.url | relative_url }}">
+          <div class="project-image">
+            <img src="{{ project.img }}" alt="{{ project.title }}">
+          </div>
+          <div class="project-details">
+            <h3>{{ project.title }}</h3>
+            <p>{{ project.excerpt | strip_html | strip }}</p>
+          </div>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+</div>
