@@ -5,8 +5,8 @@ title: Projects
 
 <div class="layout--archive js-all">
   {%- include project-tags.html -%}
-  <div class="js-result layout--archive__result d-none">
-    {%- include project-list.html articles=site.projects type='brief' show_info=true group_by='year' reverse=true -%}
+  <div class="js-projects-result d-none">
+    {%- include project-list.html articles=site.projects type='card' show_info=true group_by='year' reverse=true -%}
   </div>
 </div>
 

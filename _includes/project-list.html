@@ -138,7 +138,34 @@
           </div>
         </div>
       {%- endif -%}
+
+    {%- elsif include.type == 'card' -%}
+      {%- assign _tags = '' -%}
+      {%- for _tag in _article.tags -%}
+        {%- assign _tag_encode = _tag | strip | url_encode -%}
+        {%- if forloop.last -%}
+          {%- assign _tags = _tags | append: _tag_encode -%}
+        {%- else -%}
+          {%- assign _tags = _tags | append: _tag_encode | append: ',' -%}
+        {%- endif -%}
+      {%- endfor -%}
+      <li class="item" itemscope itemtype="http://schema.org/BlogPosting" data-tags="{{ _tags }}">
+        <!-- <div class="item__content">
+          <a itemprop="headline" class="item__header" href="{{ _article_url }}">{{ _article.title }}</a></div> -->
+          <div class="project-card">
+            <a href="{{ _article_url | relative_url }}">
+              <div class="project-image">
+                <img src="{{ _article.img }}" alt="{{ _article.title }}">
+              </div>
+              <div class="project-details">
+                <h3>{{ _article.title }}</h3>
+                <p>{{ _article.excerpt | strip_html | strip }}</p>
+              </div>
+            </a>
+          </div>
+      </li>
     {%- endif -%}
+
   {%- endfor -%}
 
 </div>

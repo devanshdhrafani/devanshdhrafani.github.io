@@ -1,0 +1,47 @@
+.js-projects-result {
+    padding-top: 2%;
+    display: grid;
+    gap: 10px; /* Adjust the gap between project cards */  
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); /* Adjust the minimum width of the cards */
+    grid-auto-rows: 500px;
+}
+
+.project-card {
+    /* You can adjust the width to fit your design, considering the gap */
+    margin-bottom: 20px;
+    border: 1px solid #ddd; /* Add borders or styling as needed */
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.project-card a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.project-image {
+    height: 240px; /* Set the height for the project images */
+    overflow: hidden;
+}
+
+.project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the designated space */
+}
+
+.project-details {
+    padding: 15px;
+}
+
+.project-details h3 {
+    margin-top: 0;
+    font-size: 1.2em;
+}
+
+.project-details p {
+    margin-bottom: 0;
+    font-size: 0.9em;
+    color: #555;
+    font-weight: lighter;
+}
