@@ -17,3 +17,14 @@
 .image--xs {
   width: map-get($image, width-xs);
 }
+.image--xxxl {
+  width: map-get($image, width-xxxl);
+}
+.image--xxl {
+  width: map-get($image, width-xxl);
+}
+
+img[src$="centerme"] {
+  display:block;
+  margin: 0 auto;
+}

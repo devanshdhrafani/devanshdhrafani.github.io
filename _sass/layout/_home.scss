@@ -161,5 +161,17 @@
     font-weight: lighter;
   }
   
+  .blog #title-button h2 {
+    flex: 0 0 20%;
+  }
+
+  .blog table th {
+    font-size: small;
+  }
+
+  .blog table td {
+    font-size: medium;
+    padding-left: 1%;
+  }
 
 }
