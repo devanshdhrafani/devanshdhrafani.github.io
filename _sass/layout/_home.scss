@@ -118,7 +118,7 @@
     display: grid;
     gap: 10px; /* Adjust the gap between project cards */  
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); /* Adjust the minimum width of the cards */
-    grid-auto-rows: 500px;  
+    grid-auto-rows: 450px;  
   }
   
   .project-card {
