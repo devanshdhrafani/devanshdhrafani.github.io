@@ -1,24 +1,27 @@
 ---
-layout: page
-title: EXPEVER
+layout: article
+title: EXPEVER 
 description: Expert EV/HEV Prime-mover Selection System 
 img: /assets/images/expever/expever.jpg
 redirect:
 importance: 3
 select: true
-tags: MATLAB
+tags:
+    - MATLAB
+    - Electric Vehicles
+excerpt: Expert EV/HEV Prime-mover Selection System (EXPEVER) is a MATLAB based intelligent selection system for EV/HEV prime-mover parts.
+date: 2020-11-01
 ---
 
 *Mentor: [Dr. Srinivas Prakash Regalla](https://www.bits-pilani.ac.in/hyderabad/spregalla/profile){:target="\_blank"}*
 
 Electric Vehicles are on the verge of becoming a mass-market product. Major car manufacturers have started electrifying their existing products. This transition creates new challenges and demands swift innovation in the development process.
-<!--more-->
 
 It has become increasingly necessary for engineers to have a tool to assist in the selection of critical prime-mover parts like Battery and Motors. 
 Such a tool can help significantly cut down design time for standard EV/HEV part specifications. Expert EV/HEV Prime-mover Selection System (EXPEVER) is an intelligent selection system for EV/HEV prime-mover parts. The software takes vehicle parameters from the user and, using a knowledge base consisting of closed-form equations, experimental data, and ML techniques, supplies key prime-mover part specifications like battery and motor specs.
 {: style="text-align: justify" }
 
-<img class="image image--xl" src="{{ '/assets/images/expever/expever.jpg' | relative_url }}"/>
+<img class="image image--xxl" src="{{ '/assets/images/expever/expever.jpg' | relative_url }}"/>
 <div class="caption">
     Proposed framework of the Expert EV/HEV Prime-mover Selection System (EXPEVER)
 </div>

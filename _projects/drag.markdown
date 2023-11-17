@@ -1,11 +1,15 @@
 ---
-layout: page
+layout: article
 title: Coefficient of Drag using Accelerometer Drop Test
 description: Physics Lab, BITS Pilani, Hyderabad Campus
 img: /assets/images/drag/front.jpeg
 importance: 4
 select: true
-tags: Physics
+tags:
+    - Physics
+    - Aerodynamics
+excerpt: A low cost, easy to setup drop test procedure to calculate the drag coefficient of a model aircraft.
+date: 2020-07-19
 ---
 
 *Mentors: [Dr. Meenakshi Viswanathan](https://universe.bits-pilani.ac.in/Hyderabad/meenakshiviswanathan/profile){:target="\_blank"} and [Dr. Aravinda Raghavan](https://universe.bits-pilani.ac.in/Hyderabad/aravindaraghavan/profile){:target="\_blank"}*

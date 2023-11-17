@@ -1,16 +1,18 @@
 ---
-layout: page
+layout: article
 title: Dextroid-The Humanoid
 description: Low cost 8-DOF Bipedal Robot
 img: /assets/images/dextroid.jpg
 importance: 1
 select: true
-tags: Humanoid
+tags:
+    - Robotics
+    - Humanoid
+excerpt: An 8-DOF Bipedal Humanoid designed to be low-cost and enable fast prototyping, with easily replaceable off-the-shelf parts.
+date: 2018-02-15
 ---
 
 Dextroid is an 8-DOF Bipedal Humanoid developed by team of students from BITS Pilani, Hyderabad Campus. It was designed to be low-cost and enable fast prototyping, with easily replaceable off-the-shelf parts.
-
-<!--more-->
 
 ### Mechanical Design
 

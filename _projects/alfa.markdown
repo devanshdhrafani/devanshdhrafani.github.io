@@ -1,17 +1,18 @@
 ---
-layout: page
-title: ALFA -APTRI Labs Floor Assistant
+layout: article
+title: ALFA - APTRI Labs Floor Assistant
 description: An open-source internet controlled mobile robot.
 img: /assets/images/alfa3.jpg
-importance: 2
 projectlink: https://github.com/YugAjmera/ALFA
-tags: robotics
+tags: 
+    - Mobile Robots
+    - Robotics
 select: true
+excerpt: ALFA is an open-source internet controlled mobile robot developed during my summer internship at Adani Power.
+date: 2019-07-15
 ---
 
 This was an internship project done at [Adani Power](https://www.adanipower.com/)'s training and research institute [APTRI](https://www.aptri.org/). ALFA is an open-source internet controlled mobile robot. We designed, fabricated and tested the prototype in 2 months of the summer internship.
-
-<!--more-->
 
 ### Parts used:
 - Raspberry Pi 3B+ (main controller)

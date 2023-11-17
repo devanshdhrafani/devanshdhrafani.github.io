@@ -1,15 +1,18 @@
 ---
-layout: page
+layout: article
 title: Solar Electricity Generation Forecasting
 description: 
-img:
+img: /assets/images/solar/solar.png
 importance: 3
-tags: Machine Learning
+tags:
+    - Machine Learning
+excerpt: Using neural networks for weather based solar electricity forecasting.
+date: 2020-11-01
 ---
 
 *Mentor: [Dr. Harihara Venkataraman](https://universe.bits-pilani.ac.in/Hyderabad/hariharavenkataraman/Profile){:target="\_blank"}*
 
-The recent shift to variable energy generation like wind and solar energy resources has becomea source of uncertainty in the power grid. Accurate prediction of Solar Energy generated canmitigate some of the challenges of using variable energy sources and lead to better adoption ofrenewable sources. While this problem is receiving attention from the research community,current solutions rely on time-series forecasting taking no account of the weather conditionsthat Solar Panels are operating at. This project aims to create an ANN solution for Solar Electricity Generation forecasting which solely relies on weather parameters as inputs.
+The recent shift to variable energy generation like wind and solar energy resources has become a source of uncertainty in the power grid. Accurate prediction of Solar Energy generated can mitigate some of the challenges of using variable energy sources and lead to better adoption of renewable sources. While this problem is receiving attention from the research community, current solutions rely on time-series forecasting taking no account of the weather conditions that Solar Panels are operating at. This project aims to create an ANN solution for Solar Electricity Generation forecasting which solely relies on weather parameters as inputs.
 {: style="text-align: justify" }
 
 Please find the report below:
