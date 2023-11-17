@@ -4,7 +4,7 @@ title: Coefficient of Drag using Accelerometer Drop Test
 description: Physics Lab, BITS Pilani, Hyderabad Campus
 img: /assets/images/drag/front.jpeg
 importance: 4
-select: true
+select: false
 tags:
     - Physics
     - Aerodynamics

@@ -5,7 +5,7 @@ description: Expert EV/HEV Prime-mover Selection System
 img: /assets/images/expever/expever.jpg
 redirect:
 importance: 3
-select: true
+select: false
 tags:
     - MATLAB
     - Electric Vehicles
