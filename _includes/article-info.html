@@ -33,8 +33,20 @@
     {%- assign _pageview = false -%}
   {%- endif -%}
 
-  {%- assign _paths_archive = site.paths.archive | default: site.data.variables.default.paths.archive -%}
+  <!-- {%- assign _paths_archive = site.paths.archive | default: site.data.variables.default.paths.archive -%} -->
 
+  {%- assign _category = page.url | split: '/' | slice: 1 | default: 'default' -%}
+
+  {%- capture _category_lower -%}{{ _category | first }}{%- endcapture -%}
+  
+  {%- if _category_lower == 'projects' -%}
+    {%- assign _paths_archive = '/projects.html' -%}
+  {%- elsif _category_lower == 'posts' -%}
+    {%- assign _paths_archive = '/archive.html' -%}
+  {%- else -%}
+    {%- assign _paths_archive = '/archive.html' -%}
+  {%- endif -%}
+  
   {%- if _show_tags or _show_author or _show_date or _pageview -%}
     <div class="article__info clearfix">
       {%- if _show_tags -%}
