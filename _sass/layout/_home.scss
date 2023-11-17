@@ -118,7 +118,7 @@
     padding-top: 2%;
     display: grid;
     gap: 10px; /* Adjust the gap between project cards */  
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); /* Adjust the minimum width of the cards */
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); /* Adjust the minimum width of the cards */
     grid-auto-rows: 450px;  
   }
   
