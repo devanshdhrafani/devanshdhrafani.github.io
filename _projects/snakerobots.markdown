@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Snake Robots for Search and Rescue
+title: Snake-like Robots for Search and Rescue
 img: /assets/images/projects/snakerobots/poleclimb.gif
 tags: 
     - Bio-Inspired
