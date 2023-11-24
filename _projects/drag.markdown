@@ -6,8 +6,7 @@ img: /assets/images/drag/front.jpeg
 importance: 4
 select: false
 tags:
-    - Physics
-    - Aerodynamics
+    - Others
 excerpt: A low cost, easy to setup drop test procedure to calculate the drag coefficient of a model aircraft.
 date: 2020-07-19
 ---

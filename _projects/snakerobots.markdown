@@ -4,7 +4,6 @@ title: Snake-like Robots for Search and Rescue
 img: /assets/images/projects/snakerobots/poleclimb.gif
 tags: 
     - Bio-Inspired
-    - ROS
     - Embedded systems
     - Robotics
 select: true

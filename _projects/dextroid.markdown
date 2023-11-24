@@ -6,8 +6,8 @@ img: /assets/images/dextroid.jpg
 importance: 1
 select: true
 tags:
+    - Bio-Inspired
     - Robotics
-    - Humanoid
 excerpt: An 8-DOF Bipedal Humanoid designed to be low-cost and enable fast prototyping, with easily replaceable off-the-shelf parts.
 date: 2018-02-15
 ---

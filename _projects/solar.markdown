@@ -5,7 +5,7 @@ description:
 img: /assets/images/solar/solar.png
 importance: 3
 tags:
-    - Machine Learning
+    - Others
 excerpt: Using neural networks for weather based solar electricity forecasting.
 date: 2020-11-01
 ---

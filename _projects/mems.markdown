@@ -6,8 +6,7 @@ img: /assets/images/mems/mems.jpg
 importance: 3
 select: false
 tags:
-    - Sensing
-    - Electronics
+    - Others
 excerpt: Low-cost, portable dianostic electrochemical sensor using 3D carbon ink extrusion on glass substrate.
 date: 2019-11-01
 ---

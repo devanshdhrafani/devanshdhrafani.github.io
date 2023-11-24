@@ -7,8 +7,7 @@ redirect:
 importance: 3
 select: false
 tags:
-    - MATLAB
-    - Electric Vehicles
+    - Others
 excerpt: Expert EV/HEV Prime-mover Selection System (EXPEVER) is a MATLAB based intelligent selection system for EV/HEV prime-mover parts.
 date: 2020-11-01
 ---
