@@ -4,7 +4,7 @@ title: Dextroid-The Humanoid
 description: Low cost 8-DOF Bipedal Robot
 img: /assets/images/dextroid.jpg
 importance: 1
-select: true
+select: false
 tags:
     - Bio-Inspired
     - Robotics

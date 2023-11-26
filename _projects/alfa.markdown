@@ -7,7 +7,7 @@ projectlink: https://github.com/YugAjmera/ALFA
 tags: 
     - Mobile Robots
     - Robotics
-select: true
+select: false
 excerpt: ALFA is an open-source internet controlled mobile robot developed during my summer internship at Adani Power.
 date: 2019-07-15
 ---
