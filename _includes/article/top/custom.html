@@ -1,3 +1,12 @@
 <!-- start custom article top snippet -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
+<!-- Add Open Graph (OG) tags -->
+<meta property="og:title" content="{{ page.title }}">
+<meta property="og:type" content="article">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+<meta property="og:image" content="{{ site.url }}{{ page.img | default: site.data.variables.default.page.default_image }}">
+<meta property="og:description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}">
+<meta property="article:author" content="{{ page.author }}">
 <!-- end custom article top snippet -->
