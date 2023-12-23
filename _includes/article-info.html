@@ -12,6 +12,13 @@
     {%- assign _show_date = false -%}
   {%- endif -%}
 
+  {%- assign _show_link = __return -%}
+  {%- if include.article.links -%}
+    {%- assign _show_link = true -%}
+  {%- else -%}
+    {%- assign _show_link = false -%}
+  {%- endif -%}
+
   {%- include snippets/assign.html
     target=site.data.variables.default.page.show_tags
     source0=layout.show_tags source1=include.article.show_tags -%}
@@ -66,8 +73,63 @@
         </ul>
       {%- endif -%}
 
-      {%- if _show_author or _show_date or _pageview -%}
+      {%- if _show_link or _show_author or _show_date or _pageview -%}
         <ul class="right-col menu">
+          {%- if _show_link -%}
+          <li>
+          {%- for _link in include.article.links -%}
+              {%- if _link.paper -%}
+                <a class="button button--outline-error button--rounded button--sm"
+                  href="{{ _link.paper }} " target="\_blank">
+                <i class="fas fa-file-pdf"></i></a>
+                </a>
+              {%- endif -%}
+              {%- if _link.arxiv -%}
+                <a class="button button--outline-error button--rounded button--sm"
+                  href="{{ _link.arxiv }} " target="\_blank">
+                <i class="ai ai-arxiv"></i></a>
+                </a>
+              {%- endif -%}
+              {%- if _link.code -%}
+                <a class="button button--outline-info button--rounded button--sm"
+                  href="{{ _link.code }}" target="\_blank">
+                <i class="fab fa-github"></i></a>
+                </a>
+              {%- endif -%}
+              {%- if _link.video -%}
+                <a class="button button--outline-error button--rounded button--sm"
+                  href="{{ _link.video }}" target="\_blank">
+                <i class="fab fa-youtube"></i></a>
+                </a>
+              {%- endif -%}
+              {%- if _link.slides -%}
+                <a class="button button--outline-warning button--rounded button--sm"
+                  href="{{ _link.slides }}" target="\_blank">
+                <i class="fas fa-file-powerpoint"></i></a>
+                </a>
+              {%- endif -%}
+              {%- if _link.poster -%}
+                <a class="button button--outline-error button--rounded button--sm"
+                  href="{{ _link.poster }}" target="\_blank">
+                <i class="fas fa-file-image"></i></a>
+                </a>
+              {%- endif -%}
+              {%- if _link.blog -%}
+                <a class="button button--outline-info button--rounded button--sm"
+                  href="{{ _link.blog }}" target="\_blank">
+                <i class="fab fa-blogger-b"></i></a>
+                </a>
+              {%- endif -%}
+              {%- if _link.other -%}
+                <a class="button button--outline-info button--rounded button--sm"
+                  href="{{ _link.other }}" target="\_blank">
+                <i class="fas fa-link"></i></a>
+                </a>
+              {%- endif -%}
+          {%- endfor -%}
+          </li>
+          {%- endif -%}
+
           {%- if _show_author  -%}
             <li><i class="fas fa-user"></i> <span>{{ _author.name }}</span></li>
           {%- endif -%}
