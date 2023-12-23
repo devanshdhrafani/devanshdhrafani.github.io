@@ -8,6 +8,10 @@ tags:
 select: true
 excerpt: Comprehensive dataset of Wildland Fire Infrared images with crew labels for the enhancement of wildfire crew detection - published to IROS 2023.
 date: 2023-03-01
+links:
+    - paper: https://ieeexplore.ieee.org/abstract/document/10341683
+    - arxiv: https://arxiv.org/abs/2312.09159
+    - code: https://github.com/castacks/WIT-UAS-Dataset
 ---
 
 Wildfires today grow increasingly more drastic due to climate extremification. As wildfires grow in size and complexity, crews on the front lines need access to greater situational awareness of fire position relative to themselves for safety. Unmanned aerial systems (UAS) offer an ideal platform to provide such situational awareness, providing an eye in the sky while being relatively cost-effective and portable. Greater levels of autonomy for unmanned aerial systems would make this tool easier to adopt at scale, requiring less training for human pilots and providing greater capability to monitor the environment. While several aerial autonomy works focus on estimating fire position, none seek to perceive fire crew and vehicle assets. In this work WIT-UAS: A Wildland-fire Infrared Thermal Dataset, we develop a dataset for training neural models to detect wildfire crew assets from aerial views. This work was published to IEEE IROS 2023. Read the full paper [here](https://arxiv.org/abs/2312.09159){:target="\_blank"}.

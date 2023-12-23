@@ -9,6 +9,8 @@ tags:
 select: true
 excerpt: ROS-based software stack to control Biorobotics lab Snake Robots; Firmware development for snake head perception module.
 date: 2022-05-30
+links:
+    - video: https://www.youtube.com/playlist?list=PLRgXEcRAQzpb1k4Q2uOfEWpQCaI2rGA0p
 ---
 
 Natural calamities like earthquakes, cyclones, and tsunamis affect millions of people every year. Many casualties are caused in the aftermath of the disaster, when response efforts are inefficient to find and rescue the survivors. More people die of  entrapment after a building collapses than during the actual collapse. Snake Robots can play a pivotal role in the search and rescue operations, adeptly navigating confined spaces and disaster debris where humans struggle to reach. Their flexible, serpentine design enables them to slither through crevices, offering invaluable assistance in locating survivors and delivering crucial aid. Their slender form factor and ability to climb structures like trees/poles also make them useful for reconnaissance.

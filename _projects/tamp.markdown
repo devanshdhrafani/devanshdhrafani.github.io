@@ -8,6 +8,9 @@ tags:
 select: true
 excerpt: Hierarchical planning using task-level STRIPS + A* search and execution with DMPs for household robotic manipulation. 
 date: 2022-12-12
+links:
+    - code: https://github.com/singh-manpreet96/16782_project
+    - video: https://youtu.be/5irhE5JVBgA?feature=shared
 ---
 
 In addressing the household robotic manipulation challenges associated with tray and table organization, a variety of tasks emerge, ranging from rearranging stacked objects on a tray to clearing and stacking different items on a table. These tasks typically involve everyday kitchen items such as cutlery, plates, bowls, and cereal boxes. Symbolic planning methodologies, extensively explored for long-horizon robot manipulation tasks, have proven effective in generating task plans for these scenarios. However, the translation of these plans into executable actions requires the integration of a low-level planner. To bridge this gap, our work introduces a novel hierarchical task and motion planning framework tailored for the household kitchen environment, emphasizing efficient and practical solutions for tray and table organization tasks. This approach holds significant promise for enhancing the capabilities of household robots, contributing to streamlined domestic routines and improved daily living.
