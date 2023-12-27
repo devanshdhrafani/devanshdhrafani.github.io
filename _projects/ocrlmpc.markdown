@@ -9,6 +9,7 @@ select: true
 excerpt: RRT + minimum snap trajectory and non-linear MPC controller with convex obstacle constraints for fast flight in forest subcanopy.
 date: 2023-05-12
 links:
+    - paper: https://drive.google.com/file/d/13FGmzuWB2-mw6RlZ33QffkUQ9JCNJFb0/view?usp=share_link
     - code: https://github.com/rachelzh9/subcanopy_flight
     - video: https://youtu.be/LnCpOuqSb0I?feature=shared
 ---

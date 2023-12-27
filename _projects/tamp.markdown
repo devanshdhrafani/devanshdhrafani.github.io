@@ -9,6 +9,7 @@ select: true
 excerpt: Hierarchical planning using task-level STRIPS + A* search and execution with DMPs for household robotic manipulation. 
 date: 2022-12-12
 links:
+    - paper: https://drive.google.com/file/d/1BykRtI0yXDsaZqqtbp3BL14tILfzWnWC/view?usp=share_link
     - code: https://github.com/singh-manpreet96/16782_project
     - video: https://youtu.be/5irhE5JVBgA?feature=shared
 ---
