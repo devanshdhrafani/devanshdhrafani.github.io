@@ -5,7 +5,7 @@ img: /assets/images/projects/diamondage/Gantry.jpg
 tags: 
     - Construction
     - Robotics
-select: true
+select: false
 excerpt: Motion Planning and perception for a large-scale 3D concrete printed construction robot during my internship at Diamond Age 3D. 
 date: 2023-08-15
 ---
