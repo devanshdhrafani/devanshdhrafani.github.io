@@ -22,7 +22,7 @@ As a part of the [Biorobotics Lab](https://biorobotics.ri.cmu.edu/index.php){:ta
 ## Curve-Fitting pipeline
 Biological snakes traverse challenging terrains by limbless locomotion, utilizing the ability to change their backbone shape to gain and lose traction on the surface to locomote on the surface. By thinking of gaits as following a backbone in 3D space instead of joint space, we can simplify the problem of gait generation while keeping the intuition from biological snakes. The gait generation problem is then reduced to finding the appropriate joint angles for the N-DOF robot which fits the desired reference backbone curve. Below is the overview of the gait-generation pipeline for the EELS robot. For the curve-fitting, we utilize a constrained optimization-based method. The objective function is the sum of squared distance between the joint links and the corresponding nearest points on the reference curve. We constrain this problem with the joint limits and also restrict the change in joint angles with to fixed value to produce smooth joint position commands.
 
-![EELS Artistic Render](/assets/images/projects/eels/curve-fitting-pipeline.png?style=centerme){:.image--xxl}
+![Curve-fitting pipeline](/assets/images/projects/eels/curve-fitting-pipeline.png?style=centerme){:.image--xxl}
 
 ## Results
 We tested the curve-fitting pipeline to generate a sidewinding gait for the EELS robot by fitting the snake robot to a sidewinding backbone curve. The resulting gait was tested on a PyBullet simulation of the EELS robot. The following video shows the various steps of the pipeline described above. Please note that a moving average filter was applied on the resulting joint-angles to produce smooth joint changes for deployment on the robot. 
